@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- An offline-capable survey application suite (c) Aid Web Solutions -->
+<html lang="en"  class="no-js">
+	<head>
+		<title>
+			 Enketo - Faster Assessments (Offline)
+		</title>
+		
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<meta charset="utf-8" />
+		<meta name="author" content="Martijn van de Rijdt (Aid Web Solutions)" />
+		<meta name-"copyright" content="2012 (c) Martijn van de Rijdt"/>
+		
+		<!--[if lt IE 8]>
+        	<script type="text/javascript">window.location = 'modern_browsers';</script>
+		<![endif]-->
+		<%= stylesheet_link_tag "normalize", "all" %>
+		<link rel="stylesheet" type="text/css" href="libraries/jquery-ui/css/sunny/jquery-ui.custom.css"/>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/screen.css" />
+    <script type="text/javascript" src="libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="libraries/jquery-ui/js/jquery-ui.custom.min.js"></script>
+    <script type="text/javascript" src="libraries/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="libraries/jquery.multiselect.min.js"></script>
+    <script type="text/javascript" src="libraries/modernizr.min.js"></script>
+    <script type="text/javascript" src="libraries/xpathjs_javarosa.min.js"></script>
+
+    <%= javascript_include_tag  "all" %>
+	</head>
+	<body>
+	  <%= yield %>
+	</body>
+</html>
