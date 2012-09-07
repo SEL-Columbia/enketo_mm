@@ -1,8 +1,8 @@
-//= require "debug"
+//= require "main/debug"
 
-//= require "__common"
-//= require "__storage"
-//= require "__form"
-//= require "__survey"
+//= require "main/__common"
+//= require "main/__storage"
+//= require "main/__form"
+//= require "main/__survey"
 
-//= require "load_form"
+//= require "main/load_form"
